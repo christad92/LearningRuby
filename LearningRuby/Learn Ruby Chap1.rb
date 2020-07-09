@@ -27,7 +27,7 @@ class Dog < Pet
         puts "WOOOF"
         # Now dog can bark
     end
-    # Making dog bark twice
+    # Making dog bark ntimes
     def bark_n(i)
         i.times do 
             puts "Woof"
