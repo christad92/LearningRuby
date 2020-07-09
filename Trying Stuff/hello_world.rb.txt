@@ -1,0 +1,39 @@
+#Creating here documents
+
+#document 1
+puts <<FAMILY_LIST
+The Adeyemos
+_____________
+1. Ayodele
+2. Modupeoluwa
+3. Omolara
+4. Oluwafemi
+
+Christians
+
+FAMILY_LIST
+
+print "This is number 2 \n" 
+
+puts 'Adeyemo', "___________", <<FAMILY_LIST, '*Christian'
+1.Ayodele
+2. Modupeoluwa
+3. Omolara
+4. Oluwafemi
+
+FAMILY_LIST
+
+
+print "Number 3 \n \n"
+
+puts 'Adeyemo', '__________', <<FAMILY_LIST, 'Location', '________', <<CITIES
+1. Ayodele 
+2. Modupeoluwa
+3. Omolara
+4. Oluwafemi
+
+FAMILY_LIST
+1. Abuja
+2. Lagos
+3. Akure
+CITIES
