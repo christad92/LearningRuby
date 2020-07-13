@@ -1,0 +1,36 @@
+Welcome to The Exchange, an upcoming weekly newsletter featuring TechCrunch and Extra Crunch reporting on startups, money, and markets. You can sign up for it here to receive it regularly when it launches on July 25th. You can email me about it here, or talk to me about it on Twitter. Let’s go!
+
+Ahead of parsing Q2 venture capital data, we got a look this week into the VC world’s take on making deals over Zoom. A few months ago it was an open question whether VCs would simply stop making new investments if they couldn’t chop it up in person with founders. That, it turns out, was mostly wrong.
+
+This week we learned that most VCs are open to making remote deals happen, even if 40% of VCs have actually done so. This raises a worrying question: If only 40% of VCs have actually made a fully remote deal, how many deals happened in Q2?
+
+Judging from my inbox over the past few months, it’s been an active period. But we can’t lean on anecdata for this topic; The Exchange will parse Q2 VC data next week, hopefully, provided that we can scrape together the data points we need to feel confident in our take. More soon.
+
+Private markets
+As TechCrunch reported Friday, some startups are delaying raising capital for a few quarters. They can do this by limiting expenses. The question for startups that are doing this is what shape they’ll be in when they do surface to hunt for fresh funds; can they still grow at an attractive pace while trying to extend their runway through burn conservation?
+
+But there’s another option besides waiting to raise a new round, and not raising at all. Startups can raise an extension to their preceding deal! Perhaps I am noticing something that isn’t a trend, or not a trend yet, but there have been a number of startups recently raised extensions lately that caught my eye. For example, this week MariaDB raised a $25 million Series C extension, for example. Also this week Sayari put together $2.5 million in a Series B extension. And CALA put together $3 million in a Seed extension. Finally, across the pond Machine Labs put together one million pounds in another Seed extension this week.
+
+I don’t know yet how to numerically drill into the available venture data to tell if we’re really seeing an extension wave, but do let me know if you have any notes to share. And, to be completely clear, the above rounds could easily be merely random and un-thematic, so please don’t read into them more deeply than that they were announced in the last few days and match something that we’re watching.
+
+Public markets
+On the public markets front, the news is all good. Tech stocks are up in general, and software stocks set some new record highs this week. It’s nearly impossible to recall how scary the world was back in March and April in today’s halcyon stock market run, but it was only a few months back that stocks were falling sharply.
+
+The return-to-form has helped a number of companies go public this year like Vroom, Accolade, Agora, and others. This week was another busy period for startups, former startups, and other companies looking to go out.
+
+In quick fashion to save time, this week we got to see GoHealth’s first IPO range, nCino’s second (more on the two companies’ finances here), learned that Palantir is going public (it’s financial history as best we can tell is here), and even got an IPO filing (S-1) from Rackspace, as it looks towards the public markets yet again.
+
+The Exchange explores startups, markets and money. You can read it every morning on Extra Crunch, and now you can receive it in your inbox. Sign up for The Exchange newsletter, which drops every Friday starting July 25.
+
+The IPO waters are so warm that Lemonade is still up more than 100% from its IPO price. So long as growth companies that are miles from making money can command rich valuations, expect companies to keep running through the public market’s door.
+
+There’s fun stuff on the horizon. Coinbase might file later this year, or in early 2021. And the Airbnb IPO is probably coming within four or five quarters. Gear up to read some SEC filings.
+
+Funding rounds worth noting
+The coolest funding round of the week was obviously the one that I wrote about, namely the $2.2 million that MonkeyLearn put together from a pair of lead investors. But other companies raised money, and among them the following investments stood out:
+
+Sony poured a quarter of a billion dollars into the maker of Fortnite, for a 1.4% stake. This rounds stands out for how small a piece of Epic Games that Sony got its hands on. It feels reminiscent of the recent investment deluge into Jio.
+TruePill raised $25 million in a Series B. In the modern world it seems batty to me that I have to get off my ass, go to Walgreens or CVS, wait in line, and then ask someone to please sell me Claritin D. What an enormous waste of time. TruePill, which does pharma delivery, can’t get here fast enough. Also, investors in TruePill are probably fully aware that Amazon spent $1 billion on PillPack just a few year ago.
+From the slightly off-the-wall category, this headline from TechCrunch: “UK’s Farewill raises $25M for its new-approach online will writing, funerals and other death services.” Farewill is a startup name that is so bad it probably works; I won’t forget it any time soon, even though I don’t live in the U.K.! And this deal goes to show how big the internet really is. There’s so much demand for digital services that a company with Farewill’s particular focus can put together enough revenue growth to command a $25 million Series B.
+Finally, TechCrunch’s Ron Miller covered a $50 million investment into OwnBackup. What matters about this deal was how Ron spoke about it: “OwnBackup has made a name for itself primarily as a backup and disaster-recovery system for the Salesforce ecosystem, and today the company announced a $50 million investment.” What to take from that? That Salesforce’s ecosystem is maybe bigger than we thought.
+That’s The Exchange for the week. Keep your eye on SaaS valuations, the latest S-1 filings, and the latest fundings. Chat Monday.
