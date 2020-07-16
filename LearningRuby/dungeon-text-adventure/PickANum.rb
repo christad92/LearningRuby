@@ -22,11 +22,13 @@ class Play
     
     def Player1Round 
         #puts @player1.name
+        puts "Round: " + @round.to_s
         puts "#{@player1.name} Please put in pick number"
         STDOUT.flush
         number = gets.chomp.to_i
-        @player1.score += number*(rand(rand(number)..number*2) <=> number)
-        puts "Your total score is #{@player1.score}"
+        roundscore =  number*(rand(rand(number)..number*2) <=> number)
+        @player1.score += roundscore
+        @player1.Logresults(roundscore)
         self.Player2Round
     end
     
@@ -35,31 +37,40 @@ class Play
         puts "#{@player2.name} Please put in pick number"
         STDOUT.flush
         number = gets.chomp.to_i
-        @player2.score += number*(rand(rand(number)..number*2) <=> number)
-        puts "Your total score is #{@player2.score}"
-        puts "Player 1 Score: #{@player1.score}"
-        puts "Player 2 Score: #{@player2.score}"
+        roundscore= number*(rand(rand(number)..number*2) <=> number)
+        @player2.score += roundscore
+        @player2.Logresults(roundscore)
         @round += 1
         self.Declarewinner
     end
 
     def Declarewinner
        if @round <= 5
+        puts "Player 1 Score: #{@player1.score}"
+        puts "Player 2 Score: #{@player2.score}"
         self.Player1Round
        else
-        winner = @player1.score > @player2.score ? "#{@player1.name} is the winner with #{@player1.score}" : "#{player2.name} You are the winner with #{@player2.score}"
+        puts "Player 1 Score: #{@player1.score}"
+        puts "Player 2 Score: #{@player2.score}"
+        winner = @player1.score > @player2.score ? "#{@player1.name} is the winner with #{@player1.score} points" : "#{@player2.name}, You are the winner with #{@player2.score} points"
         puts winner
+        puts "#{@player1.name}'s scores: #{@player1.results.join(",")} | Total: #{@player1.results.sum}"
+        puts "#{@player2.name}'s scores: #{@player2.results.join(",")} | Total: #{@player2.results.sum}"
        end
     end
 
 end
 
 class Player
-    attr_accessor :name, :score
+    attr_accessor :name, :score, :results
     def initialize(player)
         @name = player
+        @results = [] 
     end
 
+    def Logresults(roundscore)
+        @results.push(roundscore)
+    end
 end
 
 #start game
@@ -67,5 +78,4 @@ game1 = Play.new("Lovers Play")
 
 #Add players
 game1.AddPlayers("Ayodele", "Folakemi")
-#game1.returnPlayers
 game1.Player1Round
